@@ -1,0 +1,2 @@
+* [Home](/)
+* [CLI](CLI.md)
