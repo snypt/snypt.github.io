@@ -1,3 +1,3 @@
-# Snypt CLI
+# Headline
 
 > An awesome project.
