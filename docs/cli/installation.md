@@ -43,3 +43,22 @@ chmod +x bit
 sudo cp bit /usr/local/bin/  
 rm bit
 ```
+
+### Configure Snypt CLI
+
+After installing the Snypt CLI, you are ready to configure your project directory and the Snypt CLI by running snypt init 
+from the root directory of your project.
+
+```
+snypt init
+```
+
+This will add a snypt.json to your project containing your configuration. Snypt CLI works 
+by parsing through your project and finding snypts ([more info here](/docs/cli/pushing_snypts.md)). Snypt.json
+contains a list files Snypt CLI will parse through in search of snypts. 
+
+You can add one or more files to that list by running the command
+
+```
+snypt add './app/js/file.js' './app/js/file2.js' './app/js/file3.js'
+```
