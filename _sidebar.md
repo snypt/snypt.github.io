@@ -10,5 +10,5 @@
     * [Creating snypts](/docs/cli/creating_snypts.md) 
     * [Pushing to a board](/docs/cli/pushing_snypts.md) 
 * __Slack__
-    * [Integration](/docs/slack/integration.md)
-    * [Saving snypts](/docs/slack/saving_snypts.md)    
+    * [Integration](/docs/slack/integration?id=slack-integration)
+    * [Saving snypts](/docs/slack/integration?id=saving-snypts)    
