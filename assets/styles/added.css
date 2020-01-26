@@ -4,3 +4,8 @@
     width:100%;
     margin:0px !important;
 }
+
+.markdown-section figure, .markdown-section p {
+    font-size:1.4em !important;
+    line-height: 2em !important;
+}
