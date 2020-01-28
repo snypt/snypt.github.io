@@ -13,16 +13,29 @@ npm install snypt-cl -global
 ```
 
 ### MacOs
-Download Snypt executable from [here]() and copy the executable to a directory in your path, or any directory that will be added to your path:
+
+Run the following commands 
+
+Download Snypt executable and grpc-node and copy both to a directory in your path, or any directory that will be added to your path:
+
 ```
-curl -Lo bit https://github.com/teambit/bit/releases/download/v14.7.2/bit-bin-macos  
-chmod +x bit
-sudo cp bit /usr/local/bin/  
-rm bit
+curl -Lo snypt https://github.com/snypt/snypt.github.io/releases/download/1.0.1/snypt-macos
+curl -Lo grpc_node.node https://github.com/snypt/snypt.github.io/releases/download/1.0.1/grpc_node.node
+chmod +x snypt
+sudo cp snypt /usr/local/bin/
+sudo cp grpc_node.node /usr/local/bin/ 
+rm snypt
+rm grpc_node.node
+```
+
+To verify that Snypt CLI has been installed correctly run
+```
+snypt -V
+1.0.0
 ```
 
 ### Windows
-Download Snypt executable .exe file from [here]() then add it to your PATH:
+Download Snypt executable .exe file from [here](https://github.com/snypt/snypt.github.io/releases/download/1.0.1/snypt-windows.exe) then add it to your PATH:
 
 Let's say your __snypt.exe__ file is located at **C:\myfolder\snypt.exe**
 
