@@ -1,3 +1,5 @@
+<img src="./assets/images/snypt_logo_bubble.svg" width="150" height="150" style="margin-left:16px">
+
 * __Introduction__
     * [Quick Start](/)
 * __Guides__    

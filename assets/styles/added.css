@@ -1,9 +1,26 @@
 .navbar{
     background-color: #306eff!important;
-    position: absolute !important;
+    position: fixed !important;
     width:100%;
     margin:0px !important;
+    font-family: 'Nunito', sans-serif !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 }
+
+.nav-link-md {
+    font-size: 1.1rem !important;
+}
+
+.navbar-brand{
+    font-size: 20px !important;
+}
+
+/*
+.sidebar {
+    padding: 80px 0 0 !important;
+}
+*/
 
 .markdown-section figure, .markdown-section p {
     font-size:1.4em !important;
